@@ -1,0 +1,39 @@
+.timer-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.control-button {
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #4caf50;
+  color: white;
+  min-width: 100px;
+}
+
+.control-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.control-button:active {
+  transform: translateY(0);
+}
+
+.control-button.active {
+  background-color: #f44336;
+}
+
+.control-button.reset {
+  background-color: #757575;
+}
+
+.control-button.reset:hover {
+  background-color: #616161;
+}
